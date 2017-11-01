@@ -1,2 +1,2 @@
 # colorGame
-Color Game htlm/css/js
+Color Game front-end tutorial
