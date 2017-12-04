@@ -19,6 +19,7 @@ easyBtn.addEventListener("click", function(){
 	pickedColor = pickColor();
 	//update color display
 	colorDisplay.textContent = pickedColor;
+	header.style.backgroundColor = "#7019c1";
 	messageDisplay.textContent = "";
 	resetButton.textContent = "new game"
 	for(var i = 0; i < squares.length; i++){
@@ -39,6 +40,7 @@ hardBtn.addEventListener("click", function(){
 	pickedColor = pickColor();
 	//update color display
 	colorDisplay.textContent = pickedColor;
+	header.style.backgroundColor = "#7019c1";
 	messageDisplay.textContent = "";
 	resetButton.textContent = "new game"
 	for(var i = 0; i < squares.length; i++){
